@@ -23,31 +23,7 @@ int main()
 	return 0;
 
 
-	//Mat srcImage = imread("D:\\opencv_picture_test\\阈值处理\\硬币.png", 0);	//读入的时候转化为灰度图
-	//namedWindow("原始图", WINDOW_NORMAL);//WINDOW_NORMAL允许用户自由伸缩窗口
-	//imshow("原始图", srcImage);
 
-	//Mat dstImage1, dstImage2;
-	//dstImage1.create(srcImage.rows, srcImage.cols, CV_8UC1);
-	//dstImage2.create(srcImage.rows, srcImage.cols, CV_8UC1);
-	//double time0 = static_cast<double>(getTickCount());	//记录起始时间
-	////阈值处理+二值化
-	////1
-	//threshold(srcImage, dstImage1, 83, 255, THRESH_BINARY);
-	//adaptiveThreshold(srcImage, dstImage2, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, 15, 10);
-	////		原图  结果图   预设满足条件的最大值		自适应阈值算法   二进制阈值或反二进制阈值   局部区域的尺寸 3 5 7      该参数和算法有关
-	////一系列处理之后
-	//time0 = ((double)getTickCount() - time0) / getTickFrequency();
-	//cout << "此方法运行时间为：" << time0 << "秒" << endl;	//输出运行时间
-	//namedWindow("效果图1", WINDOW_NORMAL);//WINDOW_NORMAL允许用户自由伸缩窗口
-	//imshow("效果图1", dstImage1);
-	//namedWindow("效果图2", WINDOW_NORMAL);//WINDOW_NORMAL允许用户自由伸缩窗口
-	//imshow("效果图2", dstImage2);
-	////dstImage = My_Rraw_histogram(&srcImage);
-	////namedWindow("一维直方图", WINDOW_NORMAL);//WINDOW_NORMAL允许用户自由伸缩窗口
-	////imshow("一维直方图", dstImage);
-	//waitKey(0);
-	//return 0;
 
 
     //std::cout << "Hello World!\n";
