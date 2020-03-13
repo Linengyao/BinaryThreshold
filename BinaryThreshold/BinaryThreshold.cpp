@@ -16,7 +16,7 @@ int main()
 	threshold(srcMat, destMat1, 100, 255, THRESH_BINARY);
 	adaptiveThreshold(srcMat, destMat2, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, 15, 10);
 
-	/*imshow("srcMat", srcMat);*/
+
 	imshow("bMat1",destMat1);
 	imshow("bMat2", destMat2);
 	waitKey(0);
